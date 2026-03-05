@@ -7,7 +7,7 @@ using Telegram.dts.Models;
 Telegram.Aportes.Aportes.TelegramBot botAportes = new Telegram.Aportes.Aportes.TelegramBot();
 Telegram.Aportes.Control.TelegramBot botControl = new Telegram.Aportes.Control.TelegramBot();
 
-string env = "prod";
+string env = "des";
 
 /*
 if (Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT") == null)
