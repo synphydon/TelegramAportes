@@ -1,0 +1,14 @@
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Telegram.Aportes/Dockerfile
+    restart: unless-stopped
+    environment:
+      - RUTA_IMAGENES=/storage/imagenes
+    volumes:
+      - imagenes_data:/storage/imagenes
+
+volumes:
+  imagenes_data:

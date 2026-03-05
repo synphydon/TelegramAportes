@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path="Scaffold.txt" />
+  </Folder>
+  <Project Path="ManejoDeTelegram/ManejoDeTelegram.csproj" />
+  <Project Path="Telegram.Aportes/Telegram.Aportes.csproj" />
+  <Project Path="Telegram.dts/Telegram.dts.csproj" />
+</Solution>
