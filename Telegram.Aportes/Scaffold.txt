@@ -1,0 +1,8 @@
+dotnet add package Microsoft.EntityFrameworkCore --version 8.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 8.0.0
+dotnet add package Pomelo.EntityFrameworkCore.MySql --version 8.0.0
+
+dotnet ef dbcontext scaffold "server=localhost;database=telegram_aportes;user=root;password=R1ngeril" Pomelo.EntityFrameworkCore.MySql -o Models -c ApplicationDbContext --use-database-names
+
+docker compose down
+docker compose up --build
